@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ribosome</title>
+    <script src="https://cdn.anychart.com/releases/8.14.0/js/graphics.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <div id="myDiv" style="styles.css">
+        <script src="ribosome.js" defer></script>
+        
+         <form>
+             <label for="rnaInput">mRNA:</label>
+             <input type="text" id="rnaInput" name="rnaInput" value="ACAAUGUGC">
+        </form> 
+
+        <button id="enterButton" onclick="enterButtonClick()">Enter</button>
+        <button id="backButton" onclick="backwardButtonClick()">Backward</button>
+        <button id="nextButton" onclick="forwardButtonClick()">Forward</button>
+    </div>
+</body>
+</html>
+
